@@ -1,4 +1,39 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 3px solid red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar p, h4, .footer {
+    padding: 12px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.container {
+    border: 1px solid blue;
+    flex: 1;
 }
 
