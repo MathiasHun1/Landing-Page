@@ -2,38 +2,38 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    border: 3px solid red;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+    width: 100vw;;
+    overflow: hidden;
 }
-
 
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 1em;
+    border: 2px solid red;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
 
 .navbar {
     display: flex;
 }
 
-.navbar p, h4, .footer {
-    padding: 12px;
+.navbar a {
+    padding: 10px;
+    display: block;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+.navbar a:hover {
+    background-color: cornflowerblue;
 }
 
-.container {
-    border: 1px solid blue;
-    flex: 1;
+img {
+    width: 120px;
 }
-
